@@ -1,0 +1,43 @@
+.box-senha{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.box-senha label{
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: 21px;
+}
+.box-senha input{
+    display: block;
+    width: 220px;
+    height: 30px;
+}
+
+.btn-senha{
+    width: 120px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+}
+
+.mensagem{
+    width: 300px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.mensagem p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

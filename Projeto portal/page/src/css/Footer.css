@@ -1,0 +1,76 @@
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: #3f1808;
+}
+
+footer div{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+footer .li{
+    width: 50%;
+    color: white;
+    padding-top: 25px;
+}
+footer p{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+footer p:hover{
+    color: #ccc;
+}
+footer .li:last-child{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+.versionamento{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.box-versionamento{
+    width: 800px;
+    height: 400px;
+    background-color: #ccc;
+    border-radius: 15px;
+    margin-top: 50px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+
+.ver{
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.titulo-versao{
+    text-align: center;
+}
+
+
+.li-versao{
+    list-style: inside;
+    margin-top: 25px;
+}
+
+.li-subversao{
+    display: block;
+    width: fit-content;
+    margin-left: 50px;
+}

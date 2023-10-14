@@ -1,0 +1,59 @@
+.sub-titulo{
+    text-align: center;
+}
+
+.add-tarefas{
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.load-tarelas{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 27px;
+    
+}
+
+br{
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    content: '';
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.ul-lista-tarefas{
+    width: fit-content;
+    height: fit-content;
+    background-color: #ccc;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.li-lista-tarefas{
+    display: flex;
+    border: 1px solid black;
+}
+
+.li-lista-tarefas:first-child{
+    font-weight: bold;
+}
+
+.numero-tarefas{
+    width: 80px;
+}
+
+.titulo-tarefas{
+    width: 350px;
+}
+.status-tarefas{
+    width: 150px;
+}
+
+.data-tarefas{
+    width: 140px;
+}
